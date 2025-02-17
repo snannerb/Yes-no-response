@@ -1,0 +1,73 @@
+/* Import pixelated font */
+@font-face {
+  font-family: "Press Start 2P";
+  src: url("assets/PressStart2P.ttf") format("truetype");
+}
+
+/* General styles */
+body {
+  font-family: "Press Start 2P", cursive;
+  background-color: #808080;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+input {
+  font-family: "Press Start 2P", cursive;
+  font-size: 1rem;
+  padding: 10px;
+  width: 80%;
+  max-width: 400px;
+  margin: 10px 0;
+}
+
+button {
+  font-family: "Press Start 2P", cursive;
+  font-size: 1rem;
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #333;
+}
+
+input:focus, button:focus {
+  outline: 2px solid #fff;
+  outline-offset: 2px;
+}
+
+#responseContainer {
+  margin-top: 20px;
+  font-size: 1.5rem;
+}
+
+footer {
+  margin-top: 40px;
+  font-size: 0.8rem;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  input {
+    width: 90%;
+  }
+
+  #responseContainer {
+    font-size: 1.2rem;
+  }
+}
